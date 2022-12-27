@@ -1,0 +1,45 @@
+Parameters of the GRB (from CZT):
+
+Quadrants Used: A, B, C, D
+Time Binning: 0.1 s
+Time of Peak Rate: 408261026.45003337
+Background Rate: 445 (+8, -10) counts/s
+Peak Rate above Background: 6052 (+437, -209) counts/s
+Total Counts: 9174 (+346, -285) counts
+T90: 3 (+0, -0) s
+
+
+Parameters of the GRB (from Veto):
+
+Quadrants Used: A, B, C, D
+Time Binning: 1.0 s
+Time of Peak Rate: 408261026.1836137
+Background Rate: 1402 (+8, -7) counts/s
+Peak Rate above Background: 5980 (+136, -150) counts/s
+Total Counts: 12635 (+713, -729) counts
+T90: 3 (+1, -1) s
+
+
+GCN Draft:
+
+GRB 221209A: AstroSat CZTI detection.
+
+R. Gopalakrishnan (IUCAA), V. Prasad (IUCAA), G. Waratkar (IITB), A. Suresh (IITB), A. Vibhute (IUCAA), V. Bhalerao (IITB), D. Bhattacharya (Ashoka University/IUCAA), A. R. Rao (IUCAA/TIFR), and S. Vadawale (PRL) report on behalf of the AstroSat CZTI collaboration:
+
+
+Analysis of AstroSat CZTI data with the CIFT framework (Sharma et al., 2021, JApA, 42, 73) showed the detection of a long GRB 221209A which was also detected by
+
+The source was clearly detected in the 20-200 keV energy range. The light curve showed multiple peaks of emission with the strongest peak at 2022-12-09 05:50:26.450 UTC. The measured peak count rate associated with the burst is 6052 (+437, -209) counts/s above the background in the combined data of all quadrants, with a total of 9174 (+346, -285) counts. The local mean background count rate was 445 (+8, -10) counts/s. Using cumulative rates, we measure a T90 of 3 (+0, -0) s.
+
+It was also clearly detected in the CsI anticoincidence (Veto) detector in the 100-500 keV energy range. The light curve peaks at 2022-12-09 05:50:26.184 UTC. The measured peak count rate is 5980 (+136, -150) counts/s above the background in the combined Veto data of all quadrants, with a total of 12635 (+713, -729) counts. The local mean background count rate was 1402 (+8, -7) counts/s. We measure a T90 of 3 (+1, -1) s from the cumulative Veto light curve.
+
+CZTI GRB detections are reported regularly on the payload site at http://astrosat.iucaa.in/czti/?q=grb. CZTI is built by a TIFR-led consortium of institutes across India, including VSSC, URSC, IUCAA, SAC, and PRL. The Indian Space Research Organisation funded, managed, and facilitated the project.
+
+Links:
+------
+[1] http://astrosat.iucaa.in/czti/?q=grb
+
+
+Thanks,
+Rahul
+

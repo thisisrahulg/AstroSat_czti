@@ -1,0 +1,10 @@
+Quadrants Used: [0, 1, 2, 3]
+Time Interval Used : 408261011.45003337	408261041.45003337
+Number of Runs: 5000
+Fraction of T90 measurements rejected = 0.0% 
+Time Binning: 1.0e-01 s
+Time of Peak Rate: 408261026.45003337
+Background Rate:  444.6 (+7.8 -9.7) counts/s
+Peak Rate above Background:  6052.3 (+436.9 -209.3) counts/s
+Total Counts:  9174 (+346 -285) counts
+T90:  2.70 (+0.24 -0.13) s
