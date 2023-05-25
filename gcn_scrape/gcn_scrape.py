@@ -11,6 +11,6 @@ for row in table.find_all('dt'):
 	full_link = f'https://gcn.gsfc.nasa.gov/{link}'
 	gcn = requests.get(full_link)
 	gcnsoup = BeautifulSoup(gcn.content, 'lxml')
-	gcn_text = gcnsoup.find('body')
+	
 	
 

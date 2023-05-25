@@ -33,19 +33,19 @@ GRB_linkname = str(input("GRB link's tag : "))
 answer = input("Which lightcurves ? ( Enter 1 for czti, 2 for veto,3 for both) : ")
 if answer == '1':
     tbin = str(input("  enter czt binning size [ 0.1 , 1 , 10 ] : "))
-    cztlink = '<td class="rtecenter"><p><span style="font-size:12px;"><span style="font-family:times new roman,times,serif;"><a href="http://www.iucaa.in/~astrosat/czti_grb/{}/AS1CZT_{}_{}SECBIN_lightcurves.pdf">CZTI_lightcurve</a></span></span></p>'.format(GRB_linkname,GRB_linkname,tbin)
+    cztlink = '<td class="rtecenter"><p><span style="font-size:12px;"><span style="font-family:times new roman,times,serif;"><a href="http://www.iucaa.in/~astrosat/czti_grb/{}/AS1CZT_{}_{}SECBIN_lightcurves.pdf" target="_blank">CZTI_lightcurve</a></span></span></p>'.format(GRB_linkname,GRB_linkname,tbin)
     finallink = cztlink
 
 elif answer == '2':
     vtbin = str(input("  enter veto binning size [ 1 , 5 , 10 ]: "))
-    vetolink = '<td class="rtecenter"><p><span style="font-size:12px;"><span style="font-family:times new roman,times,serif;"><a href="http://www.iucaa.in/~astrosat/czti_grb/{}/AS1CZT_{}_Veto_{}SECBIN_lightcurves.pdf">Veto_lightcurve</a></span></span></p>'.format(GRB_linkname,GRB_linkname,vtbin)
+    vetolink = '<td class="rtecenter"><p><span style="font-size:12px;"><span style="font-family:times new roman,times,serif;"><a href="http://www.iucaa.in/~astrosat/czti_grb/{}/AS1CZT_{}_Veto_{}SECBIN_lightcurves.pdf" target="_blank">Veto_lightcurve</a></span></span></p>'.format(GRB_linkname,GRB_linkname,vtbin)
     finallink = vetolink
 
 elif answer == '3':
     tbin = str(input("  enter czt binning size [ 0.1 , 1 , 10 ]: "))
     vtbin = str(input("  enter veto binning size [ 1 , 10 ]: "))
-    cztlink = '<p><span style="font-size:12px;"><span style="font-family:times new roman,times,serif;"><a href="http://www.iucaa.in/~astrosat/czti_grb/{}/AS1CZT_{}_{}SECBIN_lightcurves.pdf">CZTI_lightcurve</a></span></span></p>'.format(GRB_linkname,GRB_linkname,tbin)
-    vetolink = '<p><span style="font-size:12px;"><span style="font-family:times new roman,times,serif;"><a href="http://www.iucaa.in/~astrosat/czti_grb/{}/AS1CZT_{}_Veto_{}SECBIN_lightcurves.pdf">Veto_lightcurve</a></span></span></p>'.format(GRB_linkname,GRB_linkname,vtbin)
+    cztlink = '<p><span style="font-size:12px;"><span style="font-family:times new roman,times,serif;"><a href="http://www.iucaa.in/~astrosat/czti_grb/{}/AS1CZT_{}_{}SECBIN_lightcurves.pdf" target="_blank">CZTI_lightcurve</a></span></span></p>'.format(GRB_linkname,GRB_linkname,tbin)
+    vetolink = '<p><span style="font-size:12px;"><span style="font-family:times new roman,times,serif;"><a href="http://www.iucaa.in/~astrosat/czti_grb/{}/AS1CZT_{}_Veto_{}SECBIN_lightcurves.pdf" target="_blank">Veto_lightcurve</a></span></span></p>'.format(GRB_linkname,GRB_linkname,vtbin)
     finallink = '<td class="rtecenter">' + cztlink + vetolink
 else:
     sys.exit("Give only mentioned values. Try again")
@@ -53,7 +53,7 @@ else:
 compton = input( 'Is compton curve is there? (y/n) : ')
 
 if compton == 'y':
-    complink = '<p><span style="font-size:12px;"><span style="font-family:times new roman,times,serif;"><a href="http://www.iucaa.in/~astrosat/czti_grb/{}/AS1CZT_{}_200_4_compton_events.pdf">Compton_lightcurve</a></span></span></p>'.format(GRB_linkname,GRB_linkname)
+    complink = '<p><span style="font-size:12px;"><span style="font-family:times new roman,times,serif;"><a href="http://www.iucaa.in/~astrosat/czti_grb/{}/AS1CZT_{}_200_4_compton_events.pdf" target="_blank">Compton_lightcurve</a></span></span></p>'.format(GRB_linkname,GRB_linkname)
     finallink = finallink + complink + '</td>'
 
 elif compton == 'n':
